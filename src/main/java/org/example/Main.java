@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        Spelverdeling solver = new Spelverdeling();
+        Spelverdeling solver = new Spelverdeling(6,5,2,5);
 
         Optional<String[][]> solution = solver.solve(6,5,2,5);
         if (solution.isEmpty()) {

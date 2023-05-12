@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fff7d6f4-a031-4203-9440-d2cffddda9ba" name="Changes" comment="initial commit">
+    <list default="true" id="fff7d6f4-a031-4203-9440-d2cffddda9ba" name="Changes" comment="added functions to check if amount dubbels is not exceeded.Main is not working yet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Spelverdeling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Spelverdeling.java" afterDir="false" />
@@ -74,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683884874299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added functions to check if amount dubbels is not exceeded.Main is not working yet">
+      <created>1683907833259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683907833259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added functions to check if amount dubbels is not exceeded.Main is not working yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functions to check if amount dubbels is not exceeded.Main is not working yet" />
   </component>
 </project>
