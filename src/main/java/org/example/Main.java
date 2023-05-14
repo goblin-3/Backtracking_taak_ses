@@ -4,22 +4,30 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        Spelverdeling solver = new Spelverdeling(6,5,2,5);
+        int rondes = 5;
 
-        Optional<String[][]> solution = solver.solve(6,5,2,5);
+        Spelverdeling solver = new Spelverdeling(6, 5, 2, rondes);
+
+        Optional<String[][]> solution = solver.solve(6, 5, 2, rondes);
+
+        int spelletjes=5;
         if (solution.isEmpty()) {
             System.out.println("Geen oplossing");
-        }
-        else {
-            /*
-            String[][] oplossing = solution.get();
-            for (String[]  rondes: oplossing) {
-                System.out.println(rondes);
-                */
-
+        } else {
+            String[][] spelverdeling = solution.get();
+            for (int r = 0; r < rondes; r++) {
+                System.out.printf("Ronde %d:\n", r + 1);
+                for (int s = 0; s < spelletjes; s++) {
+                    System.out.printf("  Spel %d: %s\n", s + 1, spelverdeling[r][s]);
+                }
+            }
             }
         }
 
+
+    }
+
+/*
     
     weet niet of dit werkt ------------------------------------------------------------------------------------------
         
@@ -58,6 +66,6 @@ public class Main {
         return false; 
     }
     
+    */
     
-    
-    }
+
